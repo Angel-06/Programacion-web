@@ -1,0 +1,116 @@
+<html><!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Probando diferentes componentes</title>
+</head>
+<body bgcolor="gray">
+<form action="/Componentes.html" method="POST">
+	<FONT FACE="Broadway" SIZE=6.9 COLOR="cyan">
+	<H1 align= "center">Solicitud Estudiantil para BECA</H1>
+	<hr>
+	</FONT>
+	<FONT FACE="Arial" SIZE=5>
+	<LABEL for="nombresP"> Ingrese su nombre completo: </LABEL>
+	<input type="text" name="nombres" id="nombresP" size="30"><br>
+
+    <p>
+    <label for="numtelefono">Telefono celular: </label>
+    <input type="number" id="numtelefono" name="Telefono" size="40" min="0"><br>
+    </p>
+
+    <p>
+    <label for="numPersonas">Numero de personas que viven en la casa: </label>
+    <input type="number" id="numPersonas" name="Personas" size="40" min="0" max="10"><br>
+    </p>
+
+    <p> Sexo: <br>
+	<input type="radio" id="hombre" name="Sexo" value="Hombre">
+	<label for="hombre">Hombre</label><br>
+	<input type="radio" id="mujer" name="Sexo" value="Mujer">
+	<label for="mujer">Mujer</label>
+    </p>
+
+    <p> Electrodomesticos con los que cuenta en su casa: <br>
+    <label for="televisor">Televisior</label>
+    <input type="checkbox" id="televisor" name="Electrodomesticos" value="televisor">
+    <label for="refrigerador">Refrigerador</label>
+    <input type="checkbox" id="refrigerador" name="Electrodomesticos" value="refrigerador">
+    <label for="microondas">Microondas</label>
+    <input type="checkbox" id="microondas" name="Electrodomesticos" value="microondas">
+    <label for="computadora">Computadora</label>
+    <input type="checkbox" id="computadora" name="Electrodomesticos" value="computadora">
+    <label for="estufa">Estufa</label>
+    <input type="checkbox" id="estufa" name="Electrodomesticos" value="estufa">
+    <label for="modular">Modular</label>
+    <input type="checkbox" id="modular" name="Electrodomesticos" value="modular">
+    <label for="aire acondicionado">Aire acondicionado</label>
+    <input type="checkbox" id="aire acondicionado" name="Electrodomesticos" value="aire acondicionado">
+    <label for="celular">Celular</label>
+    <input type="checkbox" id="celular" name="Electrodomesticos" value="celular"><br>
+    </p>
+
+    <p>
+    <label for="nivelEstudios">Nivel de estudio cursando: </label>
+    <select id="nivelEstudios" name="nivelEstudios">
+    	<option value="primaria">Primaria</option>
+    	<option value="secunadaria">Secunadaria</option>
+    	<option value="preparatoria">Preparatoria</option>
+    	<option value="univerisdad">Univerisdad</option>
+    	<option value="maestria">Maestria</option>
+    	<option value="doctorado">Doctorado</option>
+    </select>
+    </p>
+
+    <p>
+	<label for="escuela">Instituto educativo: </label>
+	<input type="text" list="escuelas" id="escuela" name="Instituto">
+
+	<datalist id="escuelas">
+		<option value="UACJ"></option>
+		<option value="UTCJ"></option>
+		<option value="ITCJ"></option>
+		<option value="Tec De Monterrey"></option>
+		<option value="Secunadaria Federal #16"></option>
+		<option value="Secunadaria Federal #91"></option>
+		<option value="Secunadaria Federal #8"></option>
+		<option value="Secunadaria Federal #7"></option>
+		<option value="Bachilleres #9"></option>
+		<option value="Bachilleres #16"></option>
+		<option value="Bachilleres #8"></option>
+		<option value="Conalep #2"></option>
+		<option value="Conalep #3"></option>
+		<option value="Cecytech"></option>
+		<option value="Primaria Cuitlahuac"></option>
+		<option value="Primaria Francisco I.Madero"></option>
+		<option value="Primaria Felipe Angeles"></option>
+	</datalist>
+    </p>
+
+    <p>Frecuencia que asiste a la escuala(Nunca, Aveces, Siempre): 
+    <input type="range" name="asistencia" list="asistencia">
+  <datalist id="asistencia">
+  <option value="0">Nunca</option>
+  <option value="50">Aveces</option>
+  <option value="100">Siempre</option>
+  </datalist>
+  </p>
+
+<p>
+<label for="contra">Ingrese una contraseña para la solicitud:</label>
+<input type="password" id="contra" name="contra">
+</p>
+
+<p>
+<label for="blog">Ingrese informcion extra sobre usted: </label><br>
+<textarea id="blog" name="blog" rows="10" cols="60"></textarea>
+</p>
+
+<p align="center">
+<input type="submit" value="Terminar" name="Terminar">
+<input type="reset" value="Restaurar" name="restaurar">
+</p>
+    </FONT>
+</form>
+</body>
+</html>

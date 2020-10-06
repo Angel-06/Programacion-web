@@ -1,0 +1,21 @@
+html{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.no-user-font1{
+	font-family: 'Architects Daughter', cursive;
+}
+
+.no-user-font2{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 2em;
+}
+
+p{
+	font-family: 'Pacifico', cursive;
+}
+
+body{
+	font-family: 'Lobster', cursive;
+}

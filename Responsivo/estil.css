@@ -1,0 +1,26 @@
+
+html{
+	background: #E09DCC;
+	margin: 0%;
+}
+
+header{
+	width: 100%;
+	background-color: #63194D;
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+.titulo{
+	float: left;
+	margin-left: 500px; 
+	font-size: 40pt;
+}
+
+.imagen {
+	margin-top: 15px;
+	margin-left: 30px;
+
+}
+
+

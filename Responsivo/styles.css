@@ -1,0 +1,178 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	background: #E09DCC;
+	margin: 0%;
+}
+
+header{
+	width: 100%;
+	background-color: #63194D;
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+.titulo{
+	font-size: 60px;
+	text-align: center;
+}
+
+.enlaces{
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 30px;
+	text-align: center;
+}
+
+a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #0099ff;
+  	text-shadow:
+     1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88),
+     0px  0px 20px #0099ff;
+}
+
+#boton1, #boton2{
+	background-color: #C13898;
+	display: inline;
+	padding: 25px;
+}
+
+#boton1:hover{
+	background-color: cyan;
+}
+
+#boton2:hover{
+	background-color: cyan;
+}
+
+h2{
+	color: #000000;
+  	text-shadow:
+    1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88);
+}
+
+.imagen1{
+	width: 100%;
+}
+
+.imagenesEjemplo{
+	text-align: center;
+}
+
+.imagenesEjemplo2{
+	text-align: center;
+}
+
+#imm{
+	width: 100%;
+}
+
+.subtitulo{
+	background-color: #C13898;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.parrafo, .lista2{
+	font-size: 25px;
+}
+
+.piedefoto1, .piedefoto2{
+	margin-top: 0px;
+
+}
+
+
+@media (max-width: 500px){
+
+	.titulo{
+		float: left;
+		padding: 5px 5px;
+		margin: auto;
+		display: block;
+		vertical-align: center;
+	}
+
+	header{
+		width: 465px;
+	}
+
+	.imagen1{
+		width: 95%;
+		margin: auto;
+	}
+
+	#imm{
+		width: 100%;
+	}
+
+	.enlaces{
+		float: left;
+		width: 100%;
+
+	}
+
+	#img-pc{
+		width: 100%;
+		margin: auto;
+		align-self: center;
+	}
+
+	#img-cel{
+		width: 100%;
+		margin: auto;
+		align-self: center;
+	}
+
+	#boton1{
+		width: 90%; 
+		float: left;
+	}
+
+	#boton2{
+		width: 90%;
+		float: left;
+	}
+}
+
+	@media (min-width: 501px) and (max-width: 900px){
+
+		#img-pc{
+		width: 100%;
+		margin: auto;
+		align-self: center;
+	}
+
+	.enlaces{
+		float: left;
+		width: 100%;
+
+	}
+
+	#boton1{
+		width: 90%; 
+		float: left;
+	}
+
+	#boton2{
+		width: 90%;
+		float: left;
+	}
+}
+
+	@media (min-width: 901px) and (max-width: 1200px){
+
+	#img-pc{
+		width: 100%;
+		margin: auto;
+		align-self: center;
+	}
+}

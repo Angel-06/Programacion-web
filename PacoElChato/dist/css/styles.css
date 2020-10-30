@@ -1,0 +1,112 @@
+#container{
+  padding: 10px;
+  margin: 10px;
+  font-family: sans-serif;
+  background-size: 50px 50px;
+  background-size: 100% 100%;
+  width: 98.5vw;
+  height: 91vh;
+  float: left;
+}
+
+#sig, #des{
+	background-color: gray;
+	display: inline;
+	color: white;
+	padding: 5px;
+}
+
+.botones{
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#imagen{
+	width: 100.1%;
+	height: 101%;
+}
+
+
+#bodys{
+	background-image: url('fon.jpg');
+}
+
+#titulos{
+	text-align: center;
+	font-family: Forte;
+	width: 97%;
+	color: black; 
+	text-shadow: 0 0 5px blue, 0 0 10px cyan, 0 0 15px green, 0 0 20px blue, 0 0 30px cyan, 0 0 40px black;
+	font-size: 60px;
+	background-color: rgb(65, 146, 210, 0.3);
+	box-shadow:0 0 20px cyan;
+	float: center;
+	position: absolute;
+}
+
+#parrafos{
+	position: absolute;
+	font-family: Bahnschrift SemiBold SemiConden;
+	font-size: 25px;
+	text-shadow: 0 0 5px blue, 0 0 10px cyan, 0 0 15px green, 0 0 20px blue, 0 0 30px cyan, 0 0 40px black;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#sig:hover{
+	box-shadow: 0 0 30px blue;
+}
+
+#des:hover{
+	box-shadow: 0 0 30px red;
+}
+
+
+@media (min-width: 901px) and (max-width: 1200px){
+
+	#imagen{
+		width: 100%;
+		margin: auto;
+		align-self: center;
+	}
+
+@media (min-width: 501px) and (max-width: 900px){
+
+	#imagen{
+		width: 90%;
+		margin: auto;
+		align-self: center;
+	}
+
+	#sig{
+		width: 90%; 
+		float: left;
+	}
+
+	#des{
+		width: 90%;
+		float: left;
+	}
+}
+
+@media (max-width: 500px){
+
+	#imagen{
+		width: 95%;
+		margin: auto;
+	}
+
+	#sig{
+		width: 90%; 
+		float: left;
+	}
+
+	#des{
+		width: 90%;
+		float: left;
+	}
+}

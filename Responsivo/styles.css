@@ -145,7 +145,7 @@ h2{
 
 	@media (min-width: 501px) and (max-width: 900px){
 
-		#img-pc{
+	#img-pc{
 		width: 100%;
 		margin: auto;
 		align-self: center;

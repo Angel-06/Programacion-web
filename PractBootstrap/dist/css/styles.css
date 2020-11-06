@@ -136,13 +136,15 @@ h1{
 		font-size: 20px;
 	}
 
-	@media (min-width: 360px){
-	#img4{
-		width: 355px;
-	}
-
+	@media screen and (min-width:300px) and (max-width:800px){
+		
 	body{
 		background-color: red;
+	}
+
+
+	#img4{
+		width: 355px;
 	}
 
 	footer{

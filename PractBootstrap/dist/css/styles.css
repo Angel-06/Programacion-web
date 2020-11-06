@@ -138,34 +138,27 @@ h1{
 }
 
 @media screen and (max-device-width : 480px) {
-	body{
-		background-color: blue;
-	}
-
 	#img4{
-		width: 320px;
+		width: 355px;
 	}
 
 	h2{
-	font-size: 20px;
+	font-size: 30px;
 	color: #f0ece0;
 }
 
 	h1{
-	font-size: 30px;
+	font-size: 35px;
 	font-family: 'Fredoka One', cursive;
 	color: #ffd404;
 }
 
 	#p2,#p3,#p4,#p5, ul, li{
-	color: #f0ece0;
-	text-align: center;
-	font-family: 'Bahnschrift SemiBold';
-	font-size: 15px;
+	font-size: 25px;
 }
 
 	footer{
-		width: 315px;
+		width: 355px;
 	}
 
 	#img2,#img3{
@@ -173,8 +166,6 @@ h1{
 		height: 200px;
 	}
 #img1{
-		width: 150px;
+		width: 355px;
 	}
-
-
 }

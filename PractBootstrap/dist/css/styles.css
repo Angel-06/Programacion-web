@@ -139,7 +139,8 @@ h1{
 
 @media screen and (max-device-width : 480px) {
 	#img4{
-		width: 355px;
+		width: 361px;
+		height: 250px;
 	}
 
 	h2{
@@ -158,15 +159,16 @@ h1{
 	}
 
 	footer{
-		width: 355px;
+		width: 361px;
+		height: 250px;
 	}
 
 	#img2,#img3{
 		width: 200px;
 		height: 200px;
 	}
-	
+
 	#img1{
-		width: 355px;
+		width: 345px;
 	}
 }

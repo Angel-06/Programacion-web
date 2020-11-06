@@ -1,0 +1,166 @@
+*{
+	box-sizing: border-box;
+}
+
+#img1{
+	width: 63vh;
+	height: 35vh;
+}
+
+#img2, #img3{
+	width: 300px;
+	height: 300px;
+}
+
+#img4{
+	width: 1345px;
+	height: 350px;
+}
+
+footer{
+	width: 1330px;
+}
+
+#p2,#p3,#p4,#p5, ul, li{
+	color: #f0ece0;
+	text-align: center;
+	font-family: 'Bahnschrift SemiBold';
+	font-size: 20px;
+}
+
+ul{
+	font-size: 35px;
+	color: #130d31;
+	background-color: #e64100;
+	font-family: 'Broadway';
+    list-style: none;
+}
+
+#p5::first-letter{
+	font-size: 35px;
+	color: #130d31;
+	background-color: #e64100;
+	font-family: 'Broadway';
+
+}
+
+#p4::first-letter{
+	font-size: 35px;
+	color: #130d31;
+	background-color: #e64100;
+	font-family: 'Broadway';
+
+}
+
+#p3::first-letter{
+	font-size: 35px;
+	color: #130d31;
+	background-color: #e64100;
+	font-family: 'Broadway';
+
+}
+
+#p2::first-letter{
+	font-size: 35px;
+	color: #130d31;
+	background-color: #e64100;
+	font-family: 'Broadway';
+}
+
+body{
+	background-color:  #130d31;
+}
+
+.jumbotron{
+	background-color: #130d31;
+}
+
+h2{
+	font-size: 40px;
+	color: #f0ece0;
+}
+
+h1{
+	font-size: 90px;
+	font-family: 'Fredoka One', cursive;
+	color: #ffd404;
+}
+
+#p1{
+	color: #724d83;
+	font-family: 'Arial Black';
+	font-size: 20px;
+}
+
+@media (max-width: 500px){
+	#img4{
+		width: 479px;
+	}
+
+	footer{
+		width: 468px;
+	}
+
+	h1{
+		font-size: 48px;
+	}
+
+	#img1{
+		width: 400px;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 900px){
+	#img4{
+		width: 664px;
+	}
+
+	footer{
+		width: 650px;
+	}
+
+	h1{
+		font-size: 48px;
+	}
+
+	#img1{
+		width: 200px;
+	}
+
+	#img2,#img3{
+		width: 250px;
+		height: 250px;
+	}
+
+	ul{
+		font-size: 20px;
+	}
+
+	@media (max-width: 360px){
+	#img4{
+		width: 355px;
+	}
+
+	footer{
+		width: 355px;
+	}
+
+	h1{
+		font-size: 20px;
+	}
+
+	#img1{
+		width: 100px;
+		height: 100px;
+	}
+
+	#img2,#img3{
+		width: 100px;
+		height: 100px;
+	}
+
+	#p2,#p3,#p4,#p5, ul, li{
+		font-size: 15px;
+	}
+
+}

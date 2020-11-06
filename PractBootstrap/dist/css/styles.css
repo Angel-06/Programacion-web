@@ -143,19 +143,19 @@ h1{
 	}
 
 	h2{
-	font-size: 30px;
-	color: #f0ece0;
-}
+		font-size: 30px;
+		color: #f0ece0;
+	}
 
 	h1{
-	font-size: 35px;
-	font-family: 'Fredoka One', cursive;
-	color: #ffd404;
-}
+		font-size: 35px;
+		font-family: 'Fredoka One', cursive;
+		color: #ffd404;
+	}
 
 	#p2,#p3,#p4,#p5, ul, li{
-	font-size: 25px;
-}
+		font-size: 25px;
+	}
 
 	footer{
 		width: 355px;
@@ -165,7 +165,8 @@ h1{
 		width: 200px;
 		height: 200px;
 	}
-#img1{
+	
+	#img1{
 		width: 355px;
 	}
 }

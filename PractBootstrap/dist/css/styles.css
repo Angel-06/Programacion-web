@@ -135,38 +135,4 @@ h1{
 	ul{
 		font-size: 20px;
 	}
-
-	@media screen and (min-width:300px) and (max-width:800px){
-		
-	body{
-		background-color: red;
-	}
-
-
-	#img4{
-		width: 355px;
-	}
-
-	footer{
-		width: 355px;
-	}
-
-	h1{
-		font-size: 20px;
-	}
-
-	#img1{
-		width: 100px;
-		height: 100px;
-	}
-
-	#img2,#img3{
-		width: 100px;
-		height: 100px;
-	}
-
-	#p2,#p3,#p4,#p5, ul, li{
-		font-size: 15px;
-	}
-
 }

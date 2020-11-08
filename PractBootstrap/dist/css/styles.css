@@ -21,7 +21,7 @@ footer{
 	width: 1330px;
 }
 
-#p2,#p3,#p4,#p5, ul, li{
+#p2,#p3,#p4,#p5,#p6,#p7,#p8, ul, li{
 	color: #f0ece0;
 	text-align: center;
 	font-family: 'Bahnschrift SemiBold';
@@ -127,7 +127,7 @@ h1{
 		width: 200px;
 	}
 
-	#img2,#img3{
+	#img2,#img3,#img5,#img6{
 		width: 250px;
 		height: 250px;
 	}
@@ -163,7 +163,7 @@ h1{
 		height: 250px;
 	}
 
-	#img2,#img3{
+	#img2,#img3,#img5,#img6{
 		width: 200px;
 		height: 200px;
 	}
@@ -172,4 +172,14 @@ h1{
 		width: 340px;
 		height: 250px;
 	}
+}
+
+#img5{
+	width: 550px;
+	height: 400px;
+}
+
+#img6{
+	width: 450px;
+	height: 300px;
 }

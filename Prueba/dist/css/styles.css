@@ -1,0 +1,196 @@
+h1,h2{
+	text-align: center;
+}
+
+h2{
+	color: rgba(34,254,202,0.5);
+}
+
+nav{
+	margin-top: 5px; 
+	background-color: rgba(34,254,202,0.5);
+}
+
+h1{
+	color: #FFFFFF;
+	text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+	margin-bottom: 25px; 
+}
+
+h3{
+	color: #de2626;
+}
+
+h4{
+	color: #de8826;
+}
+
+a{
+	font-family: "Broadway";
+	font-size: 25px;
+	color: #651717;
+}
+
+p{
+	font-family: "Bahnschrift";
+	font-size: 18px;
+}
+
+span{
+	font-family: "Elephant";
+	color: black;
+}
+
+#cont2{
+	background-color: #176476;
+	margin-top: 70px;
+}
+
+#img8,#img9{
+	width: 375px;
+}
+
+#img12,#img11,#img10,#img9,#img8,#img7,#img6,#img5,#img4,#img3,#img2,#img1,#img0{
+	display:block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+body{
+	background-image: url("fond.jpg");
+	background: url("fond.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#cont1, #ul1, #li1, #li2{
+	font-family: "Broadway";
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none inside;
+}
+
+ul.slider li {
+	margin: 10px;
+    opacity: 0;
+    transition: opacity .5s;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background:#fff;
+}
+ul.slider li:first-child {
+    opacity: 1;
+}
+ul.slider li:target {
+    opacity: 1;
+}
+nav {
+    position:relative;
+    top:315px;
+}
+
+.menu li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15px;
+	text-align: center;
+}
+
+ul.slider{
+	text-align: center;
+}
+
+.container{
+	background-color: white;
+	margin-top: 10px;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7{
+	width: 550px;
+	height: 300px;
+}
+
+#contenedor1{
+	background-color: #1c2431;
+	color: #f3f0fb;
+}
+
+#contenedor2{
+	background-color: #151b27;
+}
+
+#boton{
+	color: #f3f0fb;
+	border: solid #f3f0fb;;
+}
+
+#spa{
+	color: #564e5b;
+}
+
+#contenedori2{
+	margin-top: 70px;
+	background-color: #1c2431;
+	color: #f3f0fb;
+}
+
+#pi1,#pi2,#pi3,#pi4{
+	text-align: center;
+}
+
+h5{
+	text-align: center;
+	color: #de8826;
+	font-size: 25px;
+}
+
+label{
+	font-family: "Britannic Bold";
+	font-size: 22px;
+}
+
+#boton1,#boton2{
+	background-color: #1c2431;
+	color: #955f99;
+}
+
+@media screen and (max-device-width : 480px) {
+	#img12,#img11,#img10,#img9,#img8,#img7,#img6,#img5,#img4,#img3,#img2,#img1,#img0{
+		width: 370px;
+		height: 220px;
+	}
+
+	#number1{
+		margin-top: 555px;
+	}
+	}
+
+	@media (min-width: 501px) and (max-width: 900px){
+#img12,#img11,#img10,#img9,#img8,#img7,#img6,#img5,#img4,#img3,#img2,#img1,#img0{
+		width: 500px;
+		height: 250px;
+	}
+
+		#number1{
+			margin-top: 555px;
+		}
+}
+
+@media (max-width: 500px){
+#img12,#img11,#img10,#img9,#img8,#img7,#img6,#img5,#img4,#img3,#img2,#img1,#img0{
+		width: 500px;
+		height: 220px;
+	}
+
+	#number1{
+		margin-top: 555px;
+	}
+}

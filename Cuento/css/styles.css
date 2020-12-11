@@ -5,6 +5,7 @@ body{
 }
 .portada{
  position: absolute; 
+ font-face: '';
   width: 100%;
   height: auto;
   opacity: 90%;

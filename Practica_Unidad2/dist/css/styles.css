@@ -27,15 +27,15 @@ body {
 
   #datos {
    width: 28%;
-  }
+ }
 
-  #descripcion {
+ #descripcion {
    width: 36%;
-  }
+ }
 
-  #contenido {
+ #contenido {
    width: 36%;
-  }  
+ }  
 }
 
 @media (min-width: 601px) and (max-width: 1200px) {
@@ -45,38 +45,38 @@ body {
 
   #datos {
    width: 30%;
-  }
+ }
 
-  li{
-    padding-right: 10px;
-  }
+ li{
+  padding-right: 10px;
+}
 
-  #principal {
-    width: 70%;
-  }
+#principal {
+  width: 70%;
+}
 
-  #apartados {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
+#apartados {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-  #contenido, #apartados{
-    float: right;
-  }
+#contenido, #apartados{
+  float: right;
+}
 
-  #contenido{
-    width: 70%;
-  }
+#contenido{
+  width: 70%;
+}
 
-  #apartados{
-    width: 97%;
-  }
+#apartados{
+  width: 97%;
+}
 
-  #apartados li {
-    float: left;
-    width: 33.33%;
-  }
+#apartados li {
+  float: left;
+  width: 33.33%;
+}
 }
 
 @media (max-width: 601px) {
@@ -84,7 +84,7 @@ body {
     text-align: left;
   }
   
-    #datos li:after {
+  #datos li:after {
     content: ", ";
   }
   #datos ul {

@@ -15,10 +15,6 @@
 #img4{
 	width: 1500px;
 	height: 350px;
-	
-	border-color: red;
-  	border-width: 1px;
-  	border-style: dotted;
 }
 
 footer{
@@ -88,6 +84,10 @@ h1{
 	font-size: 90px;
 	font-family: 'Fredoka One', cursive;
 	color: #ffd404;
+	
+	border-color: red;
+  	border-width: 1px;
+  	border-style: dotted;
 }
 
 #p1{

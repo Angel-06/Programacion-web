@@ -85,9 +85,10 @@ h1{
 	font-family: 'Fredoka One', cursive;
 	color: #ffd404;
 	
-	border-color: red;
-  	border-width: 1px;
-  	border-style: dotted;
+	border: 5px solid red;
+  	border-top-width: 15px;
+  	border-top-color: orange;
+  	border-top-style: solid;
 }
 
 #p1{

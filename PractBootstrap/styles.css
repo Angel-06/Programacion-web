@@ -82,6 +82,13 @@ ul{
 	font-family: 'Broadway';
 }
 
+#p7::first-letter{
+	font-size: 35px;
+	color: #130d31;
+	background-color: #e64100;
+	font-family: 'Broadway';
+}
+
 #p5::first-letter{
 	font-size: 35px;
 	color: #130d31;

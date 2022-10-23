@@ -15,6 +15,10 @@
 #img4{
 	width: 1500px;
 	height: 350px;
+	
+	border-color: red;
+  	border-width: 1px;
+  	border-style: dotted;
 }
 
 footer{

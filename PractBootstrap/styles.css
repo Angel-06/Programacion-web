@@ -39,7 +39,7 @@ footer{
 	color: #f0ece0;
 	text-align: center;
 	font-family: 'Bahnschrift SemiBold';
-	font-size: 20px;
+	font-size: 50px;
 }
 
 ul{
@@ -51,7 +51,7 @@ ul{
 }
 
 #p2::first-letter{
-	font-size: 45px;
+	font-size: 35px;
 	color: #130d31;
 	background-color: #e64100;
 	font-family: 'Broadway';

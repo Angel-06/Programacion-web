@@ -33,7 +33,6 @@ footer{
     	left: 0;
     	right: 0;
    	width: 100%;
-    	 /*padding-top: 40px;*/
 }
 
 #p2,#p3,#p4,#p5,#p6,#p7,#p8, ul, li{
@@ -51,7 +50,14 @@ ul{
     	list-style: none;
 }
 
-#p5::first-letter{
+#p2::first-letter{
+	font-size: 45px;
+	color: #130d31;
+	background-color: #e64100;
+	font-family: 'Broadway';
+}
+
+#p3::first-letter{
 	font-size: 35px;
 	color: #130d31;
 	background-color: #e64100;
@@ -67,28 +73,6 @@ ul{
 
 }
 
-#p3::first-letter{
-	font-size: 35px;
-	color: #130d31;
-	background-color: #e64100;
-	font-family: 'Broadway';
-
-}
-
-#p2::first-letter{
-	font-size: 35px;
-	color: #130d31;
-	background-color: #e64100;
-	font-family: 'Broadway';
-}
-
-#p7::first-letter{
-	font-size: 35px;
-	color: #130d31;
-	background-color: #e64100;
-	font-family: 'Broadway';
-}
-
 #p5::first-letter{
 	font-size: 35px;
 	color: #130d31;
@@ -97,6 +81,13 @@ ul{
 }
 
 #p6::first-letter{
+	font-size: 35px;
+	color: #130d31;
+	background-color: #e64100;
+	font-family: 'Broadway';
+}
+
+#p7::first-letter{
 	font-size: 35px;
 	color: #130d31;
 	background-color: #e64100;

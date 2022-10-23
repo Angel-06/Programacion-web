@@ -32,9 +32,8 @@ footer{
     	bottom: 0;
     	left: 0;
     	right: 0;
-    	height: auto;
    	width: 100%;
-    	padding-top: 40px;
+    	 /*padding-top: 40px;*/
 }
 
 #p2,#p3,#p4,#p5,#p6,#p7,#p8, ul, li{

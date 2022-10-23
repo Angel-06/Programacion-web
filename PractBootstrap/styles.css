@@ -8,6 +8,7 @@
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
+	width: 100%;
 }
 
 #img1{
@@ -32,7 +33,7 @@ footer{
     	left: 0;
     	right: 0;
     	height: auto;
-   	width: 100vw;
+   	width: 100%;
     	padding-top: 40px;
 }
 

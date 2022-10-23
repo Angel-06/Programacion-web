@@ -19,6 +19,7 @@
 
 footer{
 	width: 1330px;
+	border: 5px solid red;
 }
 
 #p2,#p3,#p4,#p5,#p6,#p7,#p8, ul, li{
@@ -33,7 +34,7 @@ ul{
 	color: #130d31;
 	background-color: #e64100;
 	font-family: 'Broadway';
-    list-style: none;
+    	list-style: none;
 }
 
 #p5::first-letter{

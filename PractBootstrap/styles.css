@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+#col-sm-12{
+	border: 5px solid blue;
+}
+
 #img1{
 	width: 63vh;
 	height: 35vh;

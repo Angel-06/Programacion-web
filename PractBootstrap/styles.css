@@ -51,14 +51,14 @@ ul{
 #p2::first-letter{
 	font-size: 35px;
 	color: #eeeeee;
-	background-color: #6fa8dc;
+	background-color: #6aa84f;
 	font-family: 'Broadway';
 }
 
 #p3::first-letter{
 	font-size: 35px;
 	color: #eeeeee;
-	background-color: #6fa8dc;
+	background-color: #6aa84f;
 	font-family: 'Broadway';
 
 }
@@ -66,7 +66,7 @@ ul{
 #p4::first-letter{
 	font-size: 35px;
 	color: #eeeeee;
-	background-color: #6fa8dc;
+	background-color: #6aa84f;
 	font-family: 'Broadway';
 
 }
@@ -74,21 +74,21 @@ ul{
 #p5::first-letter{
 	font-size: 35px;
 	color: #eeeeee;
-	background-color: #6fa8dc;
+	background-color: #6aa84f;
 	font-family: 'Broadway';
 }
 
 #p6::first-letter{
 	font-size: 35px;
 	color: #eeeeee;
-	background-color: #6fa8dc;
+	background-color: #6aa84f;
 	font-family: 'Broadway';
 }
 
 #p7::first-letter{
 	font-size: 35px;
 	color: #eeeeee;
-	background-color: #6fa8dc;
+	background-color: #6aa84f;
 	font-family: 'Broadway';
 }
 
@@ -112,7 +112,7 @@ h1{
 }
 
 #p1{
-	color: #eeeeee;
+	color: #2986cc;
 	font-family: 'Arial Black';
 	font-size: 20px;
 }

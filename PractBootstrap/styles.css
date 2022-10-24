@@ -27,8 +27,6 @@
 }
 
 footer{
-	border: 5px solid yellow;
-	
     	bottom: 0;
     	left: 0;
     	right: 0;
@@ -36,7 +34,7 @@ footer{
 }
 
 #p2,#p3,#p4,#p5,#p6,#p7,#p8, ul, li{
-	color: #b6d7a8;
+	color: #eeeeee;
 	text-align: center;
 	font-family: 'Bahnschrift SemiBold';
 	font-size: 20px;
@@ -45,52 +43,52 @@ footer{
 ul{
 	font-size: 35px;
 	color: #130d31;
-	background-color: #e64100;
+	background-color: #93c47d;
 	font-family: 'Broadway';
     	list-style: none;
 }
 
 #p2::first-letter{
 	font-size: 35px;
-	color: #9fc5e8;
-	background-color: #e64100;
+	color: #eeeeee;
+	background-color: #6fa8dc;
 	font-family: 'Broadway';
 }
 
 #p3::first-letter{
 	font-size: 35px;
-	color: #9fc5e8;
-	background-color: #e64100;
+	color: #eeeeee;
+	background-color: #6fa8dc;
 	font-family: 'Broadway';
 
 }
 
 #p4::first-letter{
 	font-size: 35px;
-	color: #9fc5e8;
-	background-color: #e64100;
+	color: #eeeeee;
+	background-color: #6fa8dc;
 	font-family: 'Broadway';
 
 }
 
 #p5::first-letter{
 	font-size: 35px;
-	color: #9fc5e8;
-	background-color: #e64100;
+	color: #eeeeee;
+	background-color: #6fa8dc;
 	font-family: 'Broadway';
 }
 
 #p6::first-letter{
 	font-size: 35px;
-	color: #9fc5e8;
-	background-color: #e64100;
+	color: #eeeeee;
+	background-color: #6fa8dc;
 	font-family: 'Broadway';
 }
 
 #p7::first-letter{
 	font-size: 35px;
-	color: #9fc5e8;
-	background-color: #e64100;
+	color: #eeeeee;
+	background-color: #6fa8dc;
 	font-family: 'Broadway';
 }
 
@@ -111,12 +109,10 @@ h1{
 	font-size: 90px;
 	font-family: 'Fredoka One', cursive;
 	color: #b17b25;
-	
-	border: 5px solid red;
 }
 
 #p1{
-	color: #724d83;
+	color: #eeeeee;
 	font-family: 'Arial Black';
 	font-size: 20px;
 }

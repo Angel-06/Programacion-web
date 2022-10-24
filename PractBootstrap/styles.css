@@ -36,7 +36,7 @@ footer{
 }
 
 #p2,#p3,#p4,#p5,#p6,#p7,#p8, ul, li{
-	color: #f0ece0;
+	color: #b6d7a8;
 	text-align: center;
 	font-family: 'Bahnschrift SemiBold';
 	font-size: 20px;
@@ -52,14 +52,14 @@ ul{
 
 #p2::first-letter{
 	font-size: 35px;
-	color: #130d31;
+	color: #9fc5e8;
 	background-color: #e64100;
 	font-family: 'Broadway';
 }
 
 #p3::first-letter{
 	font-size: 35px;
-	color: #130d31;
+	color: #9fc5e8;
 	background-color: #e64100;
 	font-family: 'Broadway';
 
@@ -67,7 +67,7 @@ ul{
 
 #p4::first-letter{
 	font-size: 35px;
-	color: #130d31;
+	color: #9fc5e8;
 	background-color: #e64100;
 	font-family: 'Broadway';
 
@@ -75,21 +75,21 @@ ul{
 
 #p5::first-letter{
 	font-size: 35px;
-	color: #130d31;
+	color: #9fc5e8;
 	background-color: #e64100;
 	font-family: 'Broadway';
 }
 
 #p6::first-letter{
 	font-size: 35px;
-	color: #130d31;
+	color: #9fc5e8;
 	background-color: #e64100;
 	font-family: 'Broadway';
 }
 
 #p7::first-letter{
 	font-size: 35px;
-	color: #130d31;
+	color: #9fc5e8;
 	background-color: #e64100;
 	font-family: 'Broadway';
 }
@@ -110,7 +110,7 @@ h2{
 h1{
 	font-size: 90px;
 	font-family: 'Fredoka One', cursive;
-	color: #ffd404;
+	color: #b17b25;
 	
 	border: 5px solid red;
 }
@@ -180,7 +180,7 @@ h1{
 	h1{
 		font-size: 35px;
 		font-family: 'Fredoka One', cursive;
-		color: #ffd404;
+		color: #b17b25;
 	}
 
 	#p2,#p3,#p4,#p5, ul, li{

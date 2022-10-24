@@ -33,14 +33,14 @@ footer{
    	width: 100%;
 }
 
-#p7{
-	color: #e64100;
+#pc{
+	color: #eeeeee;
 	text-align: left;
 	font-family: 'Bahnschrift SemiBold';
 	font-size: 20px;
 }
 
-#p2,#p3,#p4,#p5,#p6,#p8, ul, li{
+#p2,#p3,#p4,#p5,#p6,#p7,#p8, ul, li{
 	color: #eeeeee;
 	text-align: center;
 	font-family: 'Bahnschrift SemiBold';

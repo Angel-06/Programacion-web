@@ -363,16 +363,6 @@
          return v.toString(16);
          });
          }*/
-         function track(trend){
-         var delayInMilliseconds = 1000;
-         var url =  $('#request-demo').attr('href');
-         var toolName = document.title;  
-         event.preventDefault();
-         $zoho.spotlight.track('Tools Request Demo Links',{ description:toolName + ' - ' + trend + ' clicked'});
-         setTimeout(function() {
-         redirect(url);
-         },delayInMilliseconds);
-         }
       </script><!-- Spotlight script ends -->
       <!-- TemplateBeginEditable name="head" -->
       <!-- TemplateEndEditable -->

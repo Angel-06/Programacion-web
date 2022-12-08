@@ -165,4 +165,130 @@
       <div class="container">
       <div class="row">
       <div class="col-md-12">
+ <!-- Go To Top
+         ============================================= -->
+      <script type="text/javascript" src="https://js.site24x7static.com/js/site24x7.js?p=Nov_23_2022"></script><script type="text/javascript" src="https://js.site24x7static.com/js/popper.min.js?p=Nov_23_2022"></script><script type="text/javascript" src="https://js.site24x7static.com/js/bootstrap4.min.js?p=Nov_23_2022"></script><!-- TemplateEndRepeat -->
+      <script type="text/javascript">var $zoho = $zoho || {};
+         $zoho.salesiq = $zoho.salesiq || {};
+         $zoho.salesiq.ready=function(embedinfo){$zoho.salesiq.floatbutton.visible("hide");}
+      </script><script>$('ul.footer-links li a').click(function(e) 
+         { 
+         var delayInMilliseconds = 1000;
+         e.preventDefault();
+         var url = $(this).attr('href');
+         var toolName = $(this).prop('textContent');
+         trackspotlight(toolName);
+         setTimeout(function() {
+         redirect(url);
+         },delayInMilliseconds);
+         });
+         function redirect(url){
+         if(url.includes("request-demo.html")){
+         window.open(url,"_blank");
+         }else{
+         location.href = url;
+         }
+         }
+         function trackspotlight(toolName){ 
+         if(toolName == "Learn More"){
+         toolName = "AWS Promo";
+         }
+         $zoho.spotlight.track('Tools Footer Links  ',{ description:toolName + ' footer link clicked'});
+         }
+      </script><script type="text/javascript">$(function () {
+         var toolName = $(this).prop('title');
+         $('.btn').on('click',function(){
+         var btntext = $(this).prop('textContent');
+         btntext = btntext.trim();
+         $zoho.spotlight.track('Tools Test Links',{ description:toolName + ' - ' + btntext +' button clicked'});
+         });
+         $('#signup').click(function(e){
+         var btntext = $(this).prop('textContent');
+         btntext = btntext.trim();               
+         var delayInMilliseconds = 1000;//No i18N
+         e.preventDefault();//No i18N
+         toolName = document.title;
+         if(toolName!==undefined){
+         $zoho.spotlight.track('Tools Sign up Links',{ description:toolName + ' - ' +  btntext + ' button clicked'});
+         }
+         setTimeout(function() {//No i18N
+         signUpAndMonitor('tools-promo');
+         },delayInMilliseconds);//No i18N
+         });
+         try {
+         if (zohouser["DISPLAY_NAME"] !== undefined && zohouser["DISPLAY_NAME"].length > 0) {
+         $('.guest-item').hide();
+         $('#access-btn').show();
+         }
+         } catch (e) {
+         console.log(e);
+         }
+         });
+      </script><script type="text/javascript">$("#button").bind( "click", function() {
+         $('#errorContainer').hide();
+         debugger;
+         var sqlStatement = $("#inputText").val();
+         setTimeout(function(){
+         $(sqlStatement).getPreText();
+         },100);
+         formatSql(sqlStatement, 'result-new-div'); //No I18N
+         });
+         $.fn.getPreText = function () {
+         var ce = $("<pre />").html(this.html());
+         if ($.browser) {
+         if ($.browser && $.browser.webkit)
+         ce.find("div").replaceWith(function() { return "\n" + this.innerHTML; }); //No I18N
+         if ($.browser.msie)
+         ce.find("p").replaceWith(function() { return this.innerHTML + "<br>"; });
+         if ($.browser.mozilla || $.browser.opera || $.browser.msie)
+         ce.find("br").replaceWith("\n"); //No I18N
+         }
+         return ce.text();
+         };
+         $("#inputclear").click(function(){
+         $("#inputText").removeClass("error-field");
+         $("#result-new-div").hide();
+         $("#inputText").show();
+         $("#inputText").val('');
+         $(".editor-wrapper .editor .top-area .result-btn.btn").hide();
+         })
+         function validateFormatter(inputFile){
+         $("#inputText").val("");
+         $("#inputText").show();
+         $("#result-new-div").hide();
+         var filesize = inputFile.files[0].size/1024/1024;
+         if(filesize > 2){
+         isFileSizeAllowed = false;
+         event.target.value = ''
+         $("#inputText").addClass("error-field");
+         $("#inputText").val("File size cannot be more than 2mb");//No I18N
+         return;
+         }
+         else{   
+         isFileSizeAllowed = true;
+         var fileval = inputFile.files[0];
+         $("#inputText").removeClass("error-field");
+         if (fileval) {
+         // create reader
+         var reader = new FileReader();
+         reader.readAsText(fileval);
+         reader.onload = function(e) {
+         // browser completed reading file - display it  
+         $("#inputText").val(e.target.result);                     
+         };
+         }
+         }
+         }
+         $('#savebtn').click(function(){ 
+         var outputText = $("#result-new-div pre").text();
+         mime = "sql";//No I18N
+         var filename = "output." + mime; //No I18N
+         var alink = document.querySelector('#dload'); //No I18N
+         alink.href = 'data:' + mime + ',' + encodeURIComponent(outputText);
+         alink.download = filename;
+         alink.click();
+         })
+      </script>
+   </body>
+</html>
 

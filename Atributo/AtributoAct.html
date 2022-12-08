@@ -291,4 +291,545 @@
       </script>
    </body>
 </html>
+         
+         
+         
+         
+         
+         
+         
+
+         
+         
+         
+         
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://zohotagmanager.cdn.pagesense.io/ztmjs/0a792777671e4c4fbd61acf546ea9c77.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+      <!-- s247tm script starts -->
+      <script type="text/javascript" src="https://js.site24x7static.com/js/s247tm.min.js?p=Dec_01_2022"></script>
+      <!-- s247tm script ends -->
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="canonical" href="https://www.site24x7.com/es/tools/csv-a-sql.html" />
+      <title>Convertidor de CSV a SQL: Herramientas de Site24x7</title>
+      <meta name="description" content="Herramienta en línea para convertir datos CSV a consultas SQL (insertar, actualizar o eliminar). ¡Pruébela ahora gratis!">
+      <meta name="keywords" content="Convertidor de CSV a SQL, generador de consultas SQL, herramienta gratuita para transformar CSV en SQL">
+      <link rel="SHORTCUT ICON" href="https://img.site24x7static.com/images/site24x7-fav.ico?p=Nov_23_2022">
+      <!-- <link href="https://webfonts.zoho.com/css?family=Lato:400,700" rel="stylesheet">-->
+      <link rel="stylesheet" href="https://css.site24x7static.com/css/bootstrap4.min.css?p=Nov_23_2022"
+         type="text/css"/>
+      <link rel="stylesheet" href="https://css.site24x7static.com/css/new-style.css?p=Nov_23_2022" type="text/css"/>
+      <link rel="stylesheet" href="//js-wc.site24x7static.com/site24x7/client/5704480/js/toastr.min.css" type="text/css"/>
+      <link rel="stylesheet" href="//css-wc.site24x7static.com/site24x7/client/5704480/css/alltoolsv2.css" type="text/css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+      <style type="text/css">
+         .nav-link-color.selected {
+         color: #83b633!important
+         }
+      </style>
+      <script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/jquery.min-dc5e7f18c8.js"></script>
+      <script type="text/javascript" src="https://accounts.zoho.com/u/info"></script><script type="text/javascript">let imagesUrl = '//img-wc.site24x7static.com/site24x7/client/5704480/images/';
+         var rumMOKey = '68167b0b369af4d2424acc60f0f3fc81';
+         (function () {
+         if (window.performance && window.performance.timing && window.performance.navigation) {
+         var site24x7_rum_beacon = document.createElement('script');
+         site24x7_rum_beacon.async = true;
+         site24x7_rum_beacon.setAttribute('src', '//static.site24x7rum.eu/beacon/site24x7rum-min.js?appKey=' + rumMOKey);
+         document.getElementsByTagName('head')[0].appendChild(site24x7_rum_beacon);
+         }
+         })(window)
+      </script><!-- Spotlight script starts-->
+      <script type="text/javascript">// use this for local testing
+         // (function(id){var d=document;var w=window;w.$zoho=w.$zoho||{};var z=$zoho;var u=z.spotlight=z.spotlight||{};u.app_id=id;u.q=[];var p={"customer":["delete","increment","property","set","append"],"company":["delete","increment","append","property","set"],"track":[],"identify":[],"logout":[]};function s(a,b,c){a[b]=function(){var o={};o[c]=arguments;u.q.push(o)}}for(var o in p){s(u,o,o);var a=p[o];for(var i=0;i<a.length;i++){s(u[o],a[i],o+"."+a[i])}} if (window.addEventListener) window.addEventListener("load", loadScript, false); else if (window.attachEvent) window.attachEvent("onload", loadScript); function loadScript() {var e=d.createElement("script");e.type="text/javascript";e.src="https://spotlight.localzoho.com/track";e.id="zslscript";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}})("mciypDUYl5%2Fi%2BoB5WaIkVA%3D%3D")
+         (function(id){var d=document;var w=window;w.$zoho=w.$zoho||{};var z=$zoho;var u=z.spotlight=z.spotlight||{};u.app_id=id;u.q=[];var p={"customer":["delete","increment","property","set","append"],"company":["delete","increment","append","property","set"],"track":[],"identify":[],"logout":[]};function s(a,b,c){a[b]=function(){var o={};o[c]=arguments;u.q.push(o)}}for(var o in p){s(u,o,o);var a=p[o];for(var i=0;i<a.length;i++){s(u[o],a[i],o+"."+a[i])}}var e=d.createElement("script");e.type="text/javascript";e.src="https://scripts.zohospotlight.com/track";e.id="zslscript";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})("%2B%2FKTH9HSyCHMtzS%2BUNGgwQ%3D%3D")
+         var customer = {
+         id : '123e4567-e89b-12d3-a456-426614174000',
+         name: 'site24x7-tools-tracker',
+         email:'site24x7-tools-spotlight@zohocorp.com'
+         };
+         $zoho.spotlight.identify(customer.id,customer);
+         /*   if(!localStorage.hasOwnProperty("user_id")){
+         let uuid = CreateUUID();
+         localStorage.setItem("user_id",uuid);
+         }
+         if (localStorage.hasOwnProperty("user_id")) {
+         user_id = localStorage.getItem("user_id")
+         $zoho.spotlight.identify(user_id); 
+         }
+         function CreateUUID() {
+         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+         var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+         return v.toString(16);
+         });
+         }*/
+         function track(trend){
+         var delayInMilliseconds = 1000;
+         var url =  $('#request-demo').attr('href');
+         var toolName = document.title;  
+         event.preventDefault();
+         $zoho.spotlight.track('Tools Request Demo Links',{ description:toolName + ' - ' + trend + ' clicked'});
+         setTimeout(function() {
+         redirect(url);
+         },delayInMilliseconds);
+         }
+      </script><!-- Spotlight script ends -->
+      <!-- TemplateBeginEditable name="head" -->
+      <!-- TemplateEndEditable -->
+      <script>var iamZuid = parseInt();
+         var page_uri = '\x2Ftools\x2Fcsv\x2Dto\x2Dsql.html';  
+         var toolsV2 = true;
+         var languageCode = 'es';
+      </script>
+      <script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/tools-cd08abafdd.js"></script>
+      <script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/tools/common-devtools-functions-c4d8fc9a50.js"></script>
+   </head>
+   <body>
+      <!-- TemplateEndRepeat -->
+      <!-- TemplateBeginEditable name="bodypart" -->
+      <div id="temp-body">
+         <section class="tools-hero-section full-bg converter-tools">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="title-content">
+                        <h1>Conversor de CSV a SQL</h1>
+                        <p>Herramienta gratuita para convertir datos en consultas SQL desde el formato CSV. La primera línea de los datos de entrada CSV se interpreta como columnas de tabla. También se proporcionan opciones para examinar y cargar el archivo .csv de entrada y guardar el archivo de consulta de salida.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="editor-section">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="editor-wrapper">
+                        <div class="row">
+                           <div class="col-md-6 sm-order-1">
+                              <!-- <p><strong>Entrada</strong></p> -->
+                              <div class="editor">
+                                 <div class="top-area">
+                                    <div class="notification">
+                                       <div id="result" class="alert alert-danger" style="display: none;"></div>
+                                    </div>
+                                    <div class="up-btn" data-toggle="tooltip" title="Upload File"><input class="form-control-sm p-0" type="file" id="fileinput" onchange='validateFileSize(this);' accept="application/csv, .csv"/><span><i class="icon-download"></i></span></div>
+                                 </div>
+                                 <div class="form-group"><textarea class="form-control" id="icontainer" rows="10" placeholder="Pegue su CSV aquí."></textarea></div>
+                                 <!-- <p class="text-danger mb-0">File size cannot be more than 2mb</p> -->
+                              </div>
+                           </div>
+                           <div class="col-md-6 sm-order-3">
+                              <!-- <p><strong>Salida</strong></p> -->
+                              <div class="editor ">
+                                 <div class="top-area justify-content-end ">
+                                    <div class=" d-none">
+                                       <div class="mr-3"><input type="radio" id=r1 name="operation" checked>INSERT </div>
+                                       <div class="mr-3"><input type="radio" id=r2 name="operation">UPDATE  </div>
+                                       <div><input type="radio" id=r3 name="operation">DELETE  </div>
+                                    </div>
+                                    <div class="btn-group d-flex flex-wrap"><button id="savebtn" class="btn mr-2" data-toggle="tooltip" title=Descargar salida al archivo> <span class="lg-icon"><i class="icon-download"></i></span><a id="dload" style="display:none"></a> </button>
+                                       <button id="copybtn" class="btn" data-toggle="tooltip" title=Copiar en portapapeles > <span><i class="icon-copy"></i></span> </button>
+                                    </div>
+                                 </div>
+                                 <div class="form-group"><textarea id="ocontainer" class="form-control" rows="10" readonly="true"></textarea></div>
+                              </div>
+                           </div>
+                           <div class="col-md-12 sm-order-2">
+                              <div class="d-flex justify-content-center pt-4"><button id="convert" class="fill-btn mr-2" > Convertir </button>
+                                 <button id="inputclear" class="line-btn" title=Borrar entrada > Borrar </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="tools-cta-section editor-cta pb-40">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="card " id="tool-promo-card" style="">
+                        <div class="card-header border-bottom-0">
+                           <div class="row align-items-center">
+                              <div class="col-12 col-lg-7 mb-3 mb-lg-0">
+                                 <p class="mb-0 promo-card-text">¿Es un desarrollador que busca herramientas para mejorar el <a href="/application-performance-monitoring.html" style="color: #518AFE;">rendimiento de su aplicación</a>? Pruebe APM Insight de Site24x7.</p>
+                              </div>
+                              <div class="col-12 col-lg-5">
+                                 <div class="row btn-row">
+                                    <div class="col-12 col-sm-4 mb-3 mb-sm-0"><a class="signup-btn signup-btn--green d-block text-center text-capitalize" style='white-space:nowrap;padding-left:0.75rem;' id='signup'
+                                       href="javascript:void(0);"
+                                       role="button">Registrarse</a></div>
+                                    <div class="col-12 col-sm-3 mb-3 mb-sm-0"><a class="signup-btn signup-btn--green d-block text-center text-capitalize" style='white-space:nowrap;padding-left:0.75rem;' id='request-demo'
+                                       href="/schedule-demo.html" onclick="track('Request Demo')"role="button" aria-expanded="false">Demostración</a></div>
+                                    <div class="col-12 col-sm-5 learnmore-col"><a class="signup-btn signup-btn--outline collapse-trigger d-block position-relative min-width-btn collapsed text-center text-capitalize" style='white-space:nowrap;padding-left:0.75rem;'
+                                       data-toggle="collapse" href="#comparison-table" role="button" aria-expanded="false"
+                                       aria-controls="comparison-table">Más información</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="collapse" id="comparison-table">
+                           <div class="card-body">
+                              <div class="row">
+                                 <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                    <p class="mb-0 position-relative card-feature pl-3">Verifique el tiempo de actividad desde más de 110 ubicaciones globales</p>
+                                 </div>
+                                 <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                    <p class="mb-0 position-relative card-feature pl-3">Supervisión de entrega de correo.</p>
+                                 </div>
+                                 <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                    <p class="mb-0 position-relative card-feature pl-3">Supervise su servidor SMTP.</p>
+                                 </div>
+                                 <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                    <p class="mb-0 position-relative card-feature pl-3">Supervisión de servidores POP/IMAP.</p>
+                                 </div>
+                                 <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                    <p class="mb-0 position-relative card-feature pl-3">Alertas basadas en inteligencia artificial</p>
+                                 </div>
+                                 <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                    <p class="mb-0 position-relative card-feature pl-3">Supervisión Microsoft Exchange Server.</p>
+                                 </div>
+                                 <div class="col-12 col-sm-6 col-lg-4 mb-2 mb-lg-0">
+                                    <p class="mb-0 position-relative card-feature pl-3">Solucione problemas relacionados con los servidores de correo.</p>
+                                 </div>
+                                 <div class="col-12 col-sm-6 col-lg-4 mb-2 mb-lg-0">
+                                    <p class="mb-0 position-relative card-feature pl-3">Comprender las dependencias externas</p>
+                                 </div>
+                                 <div class="col-12 col-sm-6 col-lg-4">
+                                    <p class="mb-0 position-relative card-feature pl-3">Supervisar componentes y métricas personalizados</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- TemplateEndEditable -->
+      <!-- Go To Top
+         ============================================= -->
+      <script type="text/javascript" src="https://js.site24x7static.com/js/site24x7.js?p=Nov_23_2022"></script><script type="text/javascript" src="https://js.site24x7static.com/js/popper.min.js?p=Nov_23_2022"></script><script type="text/javascript" src="https://js.site24x7static.com/js/bootstrap4.min.js?p=Nov_23_2022"></script><!-- TemplateEndRepeat -->
+      <script type="text/javascript">var $zoho = $zoho || {};
+         $zoho.salesiq = $zoho.salesiq || {};
+         $zoho.salesiq.ready=function(embedinfo){$zoho.salesiq.floatbutton.visible("hide");}
+      </script><script>$('ul.footer-links li a').click(function(e) 
+         { 
+         var delayInMilliseconds = 1000;
+         e.preventDefault();
+         var url = $(this).attr('href');
+         var toolName = $(this).prop('textContent');
+         trackspotlight(toolName);
+         setTimeout(function() {
+         redirect(url);
+         },delayInMilliseconds);
+         });
+         function redirect(url){
+         if(url.includes("request-demo.html")){
+         window.open(url,"_blank");
+         }else{
+         location.href = url;
+         }
+         }
+         function trackspotlight(toolName){ 
+         if(toolName == "Learn More"){
+         toolName = "AWS Promo";
+         }
+         $zoho.spotlight.track('Tools Footer Links  ',{ description:toolName + ' footer link clicked'});
+         }
+      </script><script type="text/javascript">$(function () {
+         var toolName = $(this).prop('title');
+         $('.btn').on('click',function(){
+         var btntext = $(this).prop('textContent');
+         btntext = btntext.trim();
+         $zoho.spotlight.track('Tools Test Links',{ description:toolName + ' - ' + btntext +' button clicked'});
+         });
+         $('#signup').click(function(e){
+         var btntext = $(this).prop('textContent');
+         btntext = btntext.trim();               
+         var delayInMilliseconds = 1000;//No i18N
+         e.preventDefault();//No i18N
+         toolName = document.title;
+         if(toolName!==undefined){
+         $zoho.spotlight.track('Tools Sign up Links',{ description:toolName + ' - ' +  btntext + ' button clicked'});
+         }
+         setTimeout(function() {//No i18N
+         signUpAndMonitor('tools-promo');
+         },delayInMilliseconds);//No i18N
+         });
+         try {
+         if (zohouser["DISPLAY_NAME"] !== undefined && zohouser["DISPLAY_NAME"].length > 0) {
+         $('.guest-item').hide();
+         $('#access-btn').show();
+         }
+         } catch (e) {
+         console.log(e);
+         }
+         });
+      </script><script type="text/javascript">window.csv_to_sql_sample =
+         "album, year, US_peak_chart_post\nThe White Stripes, 1999, -\nDe Stijl, 2000, -\nWhite Blood Cells, 20.01, 61\nElephant, 2003, 6\nGet Behind Me Satan, 2005, 3\nIcky Thump, 2007, 2\nUnder Great White Northern Lights, 2010, 11\nLive in Mississippi, 2011, -\nLive at the Gold Dollar, 2012, -\nNine Miles from the White City, 2013, -"; //No I18N
+         var total_length = 0;
+         var arr_orginal = ""; //No I18N
+         var org_input = ""; //No I18N
+         var arr = ""; //No I18N
+         $(document).ready(function () {
+         mimetype = "csv"; //No I18N
+         mime = "sql"; //No I18N
+         });
+         function removeBlankLines(str) {
+         var sample_lines = str.split("\n"); //No I18N
+         var res_lines = [];
+         var s_size = sample_lines.length;
+         for (var i = 0, j = 0; i < s_size; i++) {
+         if (sample_lines[i] != "") {
+         res_lines[j] = sample_lines[i];
+         j = j + 1;
+         }
+         }
+         var dont_copy = 0;
+         var final_lines = [];
+         for (var j = 0, k = 0; j < res_lines.length; j++) {
+         for (var z = 0; z < res_lines[j].length; z++) {
+         var cline = removeSpace(res_lines[j]);
+         if (removeSpace(res_lines[j]).length == 1 &&
+         cline[0] == "-") {
+         dont_copy = 1;
+         }
+         }
+         if (dont_copy == 0) {
+         final_lines[k] = res_lines[j];
+         k = k + 1;
+         } else {
+         dont_copy = 0;
+         }
+         }
+         var str = final_lines.join("\n"); //No I18N  
+         return str;
+         }
+         function getRadioValues() {
+         var rate_value = 1;
+         if (document.getElementById('r1').checked) { //No I18N
+         rate_value = 1;
+         } else if (document.getElementById('r2').checked) { //No I18N
+         rate_value = 2;
+         } else if (document.getElementById('r3').checked) { //No I18N
+         rate_value = 3;
+         }
+         return rate_value;
+         }
+         function csv_to_sql() {
+         var res_str = " "; //No I18N
+         var input = document.getElementById('icontainer').value; //No I18N
+         try {
+         if (input.trim() != '') {
+         input = removeBlankLines(input);
+         org_input = input;
+         input = removeSpace(input);
+         arr = CSVToArray(input, ","); //No I18N
+         arr_orginal = CSVToArray(org_input, ","); //No I18N
+         total_length = arr[0].length;
+         if (arr.length > 1) {
+         res_str = res_str + createTable(arr[0], arr[1]);
+         } else {
+         res_str = res_str + createTable(arr[0], arr[0]);
+         }
+         //insert or update or delete
+         switch (getRadioValues()) {
+         case 1:
+         for (var i = 1; i < arr.length; i++) {
+         if (isFullySpace(arr[i]) == false) {
+         res_str = res_str + "\n" + insertQuery(arr[0], arr_orginal[i]); //No I18N
+         }
+         }
+         break;
+         case 2:
+         for (var i = 1; i < arr.length; i++) {
+         if (isFullySpace(arr[i]) == false) {
+         res_str = res_str + "\n" + updateQuery(arr[0], arr_orginal[i]); //No I18N
+         }
+         }
+         break;
+         case 3:
+         for (var i = 1; i < arr.length; i++) {
+         if (isFullySpace(arr[i]) == false) {
+         res_str = res_str + "\n" + deleteQuery(arr[0], arr_orginal[i]); //No I18N
+         }
+         }
+         break;
+         }
+         var outputText = res_str;
+         } else {
+         var outputText = "Please enter some input"; //No I18N
+         }
+         } catch (e) {
+         var outputText = "Invalid input"; //No I18N
+         }
+         return outputText;
+         }
+         function insertQuery(param, arr) {
+         var new_str = "\/* INSERT QUERY \*\/\nINSERT INTO TABLE_NAME( " +   
+         param + " )\nVALUES\n(\n    ";  //No I18N
+         for (var i = 0; i < arr.length; i++) {
+         if (isFullySpace(arr[i]) == false) {
+         new_str = new_str + getContents(arr[i], i) + ",";
+         } else {
+         new_str = new_str + "NULL," //No I18N
+         }
+         }
+         if (arr.length < total_length) {
+         for (var j = arr.length; j < total_length; j++) {
+         new_str = new_str + "NULL,";    //No I18N
+         }
+         }
+         new_str = new_str.slice(0, new_str.length - 1);
+         new_str = new_str + "\n);\n";
+         return new_str;
+         }
+         function getContents(str, index) {
+         var regx = /[A-z]/g;
+         if (regx.test(str) || type[index] == "VARCHAR( 100 )") {
+         str = "\'" + str + "\'";
+         }
+         return str;
+         }
+         function isFullySpace(str) {
+         var spaceCount = 0;
+         for (var i = 0; i < str.length; i++) {
+         if (str[i] == "") {
+         spaceCount = spaceCount + 1;
+         }
+         }
+         if (spaceCount == str.length) {
+         return true;
+         }
+         return false;
+         }
+         function removeSpace(line) {
+         var line1 = "";
+         for (var z = 0; z < line.length; z++) {
+         if (line[z] != " ") {
+         line1 = line1 + line[z];
+         }
+         }
+         return line1;
+         }
+         var type = [];
+         function createTable(str, nextLine) {
+         var new_str = "\/* CREATE TABLE \*\/\nCREATE TABLE IF NOT EXISTS TABLE_NAME(\n"; //No I18N
+         var types = [];
+         type = types;
+         for (var i = 0; i < str.length; i++) {
+         types[i] = returnType(nextLine[i], i);
+         new_str = new_str + str[i] + " " + types[i] + ",\n";
+         }
+         new_str = new_str.slice(0, new_str.length - 2);
+         new_str = new_str + "\n);\n"
+         return new_str;
+         }
+         function returnType(str, index) {
+         var integer = 0;
+         if (isNaN(str)) {
+         return "VARCHAR( 100 )";    //No I18N
+         } else {
+         for (var i = 1; i < arr.length; i++) {
+         if (isDouble(arr[i][index]) == true) {
+         integer = 1;
+         }
+         }
+         }
+         if (integer == 1) {
+         return "DECIMAL( 10 , 2 )"; //No I18N
+         } else {
+         return "INT(11)";   //No I18N
+         }
+         }
+         function isDouble(n) {
+         var regx = /\./;
+         n = n.toString();
+         if (n.search(regx) != -1) {
+         return true;
+         } else {
+         return false;
+         }
+         }
+         function CSVToArray(strData, strDelimiter) {
+         strDelimiter = (strDelimiter || ",");
+         var objPattern = new RegExp((
+         // Delimiters.
+         "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
+         // Quoted fields.
+         "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+         // Standard fields.
+         "([^\"\\" + strDelimiter + "\\r\\n]*))"), "gi");
+         var arrData = [
+         []
+         ];
+         var arrMatches = null;
+         while (arrMatches = objPattern.exec(strData)) {
+         var strMatchedDelimiter = arrMatches[1];
+         if (strMatchedDelimiter.length &&
+         strMatchedDelimiter !== strDelimiter) {
+         arrData.push([]);
+         }
+         var strMatchedValue;
+         if (arrMatches[2]) {
+         strMatchedValue = arrMatches[2].replace(new RegExp("\"\"",
+         "g"), "\"");
+         } else {
+         strMatchedValue = arrMatches[3];
+         }
+         arrData[arrData.length - 1].push(strMatchedValue);
+         }
+         return (arrData);
+         }
+         /*-----------------------------update fns------------------------*/
+         function updateQuery(param, arr) {
+         var new_str = "\n\/* UPDATE QUERY \*\/\nUPDATE TABLE_NAME \nSET\n   ";  //No I18N
+         for (var i = 0; i < arr.length; i++) {
+         if (isFullySpace(arr[i]) == false) {
+         new_str = new_str + param[i] + " = " +
+         getContents(arr[i], i) + ",";
+         } else {
+         new_str = new_str + param[i] + " = " + "NULL,"; //No I18N
+         }
+         }
+         if (arr.length < total_length) {
+         for (var j = arr.length; j < total_length; j++) {
+         new_str = new_str + param[i] + " = NULL,";  //No I18N
+         }
+         }
+         new_str = new_str.slice(0, new_str.length - 1);
+         new_str = new_str + "\nWHERE\n  " + param[0] + " = " +  
+         getContents(arr[0], 0) + ";";   //No I18N
+         return new_str;
+         }
+         /*----------------------------delete fns-----------------------------*/
+         function deleteQuery(param, arr) {
+         var new_str = "\n\/* DELETE QUERY \*\/\nDELETE FROM\nTABLE_NAME\n   ";  //No I18N
+         new_str = new_str + "WHERE\n    " + param[0] + " = " +
+         getContents(arr[0], 0) + ";";   //No I18N
+         return new_str;
+         }
+         function validateFileSize(inputFile){
+         var filesize = inputFile.files[0].size/1024/1024;
+         if(filesize > 2){
+         isFileSizeAllowed = false;
+         event.target.value = ''
+         $("#icontainer").val("File size cannot be more than 2mb");//No i18N
+         $("#icontainer").addClass("text-danger");//No i18N
+         $("#ocontainer").val("");
+         return;
+         }
+         else{
+         isFileSizeAllowed = true;
+         $("#icontainer").removeClass("text-danger");//No i18N
+         }
+         }
+      </script>
+   </body>
+</html>
 

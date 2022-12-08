@@ -1,133 +1,168 @@
 <!DOCTYPE html>
-
-<html lang="es"><head>
-<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://zohotagmanager.cdn.pagesense.io/ztmjs/0a792777671e4c4fbd61acf546ea9c77.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
-<!-- s247tm script starts -->
-<script type="text/javascript" src="https://js.site24x7static.com/js/s247tm.min.js?p=Dec_01_2022"></script>
-
-<!-- s247tm script ends -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="canonical" href="https://www.site24x7.com/es/tools/sql-formateador.html" /><title>Formateador SQL | Visor en línea de SQL: Herramientas de Site24x7</title><meta name="description" content='El Formateador en línea de SQL embellece y formatea de forma instantánea el código SQL de servidores SQL. ¡Probar ahora!'>
-<meta name="keywords" content='formateador de SQL,embellecedor de SQL,sentencias de SQL,análisis de SQL,formateo de SQL,formateador en línea de SQL,formateador gratuito de SQL,formato SQL,resaltador de color SQL'>
-<link rel="SHORTCUT ICON" href="https://img.site24x7static.com/images/site24x7-fav.ico?p=Nov_23_2022"><!-- <link href="https://webfonts.zoho.com/css?family=Lato:400,700" rel="stylesheet">-->
-<link rel="stylesheet" href="https://css.site24x7static.com/css/bootstrap4.min.css?p=Nov_23_2022"
-type="text/css"/>
-<link rel="stylesheet" href="https://css.site24x7static.com/css/new-style.css?p=Nov_23_2022" type="text/css"/><link rel="stylesheet" href="//js-wc.site24x7static.com/site24x7/client/5704480/js/toastr.min.css" type="text/css"/><link rel="stylesheet" href="//css-wc.site24x7static.com/site24x7/client/5704480/css/alltoolsv2.css" type="text/css"/><style type="text/css">
-pre {
-min-height: 300px;
-max-height: 300px;
-background: #f7f7f7;
-color: #000;
-outline: none;
--webkit-transition: all 0.3s ease;
-transition: all 0.3s ease;
-overflow: auto;
-padding: 15px;
-}
-textarea.error-field::placeholder{
-color: red !important;
-}
-.sqlunion {color: darkorange;}
-.sqlkeyword {color: red;}
-.sqlstring {color: blue;}
-#inputText:focus{
-background: #f7f7f7 !important;
-outline: none;
-box-shadow: none;
-border: none;
-}
-pre{
-font-weight: normal !important;
-}
-.placeholder-text{
-color: #555;
-}
-.editor-wrapper .editor .top-area .result-btn.btn{
-display: none;
-}
-.editor-wrapper .editor .top-area .result-btn.btn{
-display: none;
-}
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/><style type="text/css">
-.nav-link-color.selected {
-color: #83b633!important
-}
-</style>
-<script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/jquery.min-dc5e7f18c8.js"></script>
-
-<script type="text/javascript" src="https://accounts.zoho.com/u/info"></script><script type="text/javascript">let imagesUrl = '//img-wc.site24x7static.com/site24x7/client/5704480/images/';
-var rumMOKey = '68167b0b369af4d2424acc60f0f3fc81';
-(function () {
-if (window.performance && window.performance.timing && window.performance.navigation) {
-var site24x7_rum_beacon = document.createElement('script');
-site24x7_rum_beacon.async = true;
-site24x7_rum_beacon.setAttribute('src', '//static.site24x7rum.eu/beacon/site24x7rum-min.js?appKey=' + rumMOKey);
-document.getElementsByTagName('head')[0].appendChild(site24x7_rum_beacon);
-}
-})(window)</script><!-- Spotlight script starts-->
-<script type="text/javascript">// use this for local testing
-// (function(id){var d=document;var w=window;w.$zoho=w.$zoho||{};var z=$zoho;var u=z.spotlight=z.spotlight||{};u.app_id=id;u.q=[];var p={"customer":["delete","increment","property","set","append"],"company":["delete","increment","append","property","set"],"track":[],"identify":[],"logout":[]};function s(a,b,c){a[b]=function(){var o={};o[c]=arguments;u.q.push(o)}}for(var o in p){s(u,o,o);var a=p[o];for(var i=0;i<a.length;i++){s(u[o],a[i],o+"."+a[i])}} if (window.addEventListener) window.addEventListener("load", loadScript, false); else if (window.attachEvent) window.attachEvent("onload", loadScript); function loadScript() {var e=d.createElement("script");e.type="text/javascript";e.src="https://spotlight.localzoho.com/track";e.id="zslscript";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}})("mciypDUYl5%2Fi%2BoB5WaIkVA%3D%3D")
-(function(id){var d=document;var w=window;w.$zoho=w.$zoho||{};var z=$zoho;var u=z.spotlight=z.spotlight||{};u.app_id=id;u.q=[];var p={"customer":["delete","increment","property","set","append"],"company":["delete","increment","append","property","set"],"track":[],"identify":[],"logout":[]};function s(a,b,c){a[b]=function(){var o={};o[c]=arguments;u.q.push(o)}}for(var o in p){s(u,o,o);var a=p[o];for(var i=0;i<a.length;i++){s(u[o],a[i],o+"."+a[i])}}var e=d.createElement("script");e.type="text/javascript";e.src="https://scripts.zohospotlight.com/track";e.id="zslscript";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})("%2B%2FKTH9HSyCHMtzS%2BUNGgwQ%3D%3D")
-var customer = {
-id : '123e4567-e89b-12d3-a456-426614174000',
-name: 'site24x7-tools-tracker',
-email:'site24x7-tools-spotlight@zohocorp.com'
-};
-$zoho.spotlight.identify(customer.id,customer);
-/*   if(!localStorage.hasOwnProperty("user_id")){
-let uuid = CreateUUID();
-localStorage.setItem("user_id",uuid);
-}
-if (localStorage.hasOwnProperty("user_id")) {
-user_id = localStorage.getItem("user_id")
-$zoho.spotlight.identify(user_id); 
-}
-function CreateUUID() {
-return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-return v.toString(16);
-});
-}*/
-function track(trend){
-var delayInMilliseconds = 1000;
-var url =  $('#request-demo').attr('href');
-var toolName = document.title;  
-event.preventDefault();
-$zoho.spotlight.track('Tools Request Demo Links',{ description:toolName + ' - ' + trend + ' clicked'});
-setTimeout(function() {
-redirect(url);
-},delayInMilliseconds);
-}</script><!-- Spotlight script ends -->
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
-<script>var iamZuid = parseInt();
-var page_uri = '\x2Ftools\x2Fsql\x2Dformatter.html';  
-var toolsV2 = true;
-var languageCode = 'es';</script>
-
-<script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/tools-cd08abafdd.js"></script>
-
-<script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/vkbeautify-928cfa808e.js"></script>
-
-<script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/tools-util-3e975207ee.js"></script>
-
-
-  
-  
-  
-<!-- TemplateEndRepeat -->
-<!-- TemplateBeginEditable name="bodypart" -->
-<div id="temp-body">
-<section class="tools-hero-section full-bg converter-tools">
-<div class="container"><div class="row"><div class="col-md-12"><div class="title-content"><h1>Formateador SQL</h1>
-<p >Formatee las sentencias SQL en una consulta fácilmente legible, con sangrías y codificación en color. Identifique fácilmente las operaciones SQL y los errores de sintaxis mediante esta herramienta.</p></div></div></div></div></section>
-<section class="editor-section">
-<div class="container"><div class="row"><div class="col-md-12"><div class="editor-wrapper"><div class="editor"><div class="top-area d-flex justify-content-end"><div class="btn-wrapper d-flex"><div class="up-btn" data-toggle="tooltip" title="Upload Files"><input class="form-control-sm" type="file" onchange='validateFormatter(this);' id="fileinput" accept="application/sql, .sql"/><span class="rotate-icon"> <i class="icon-download"></i></span></div><button id="copybtn" class="btn btn-green-s247 ml-2 result-btn" onclick="selectTextInDiv('result-new-div');" data-toggle="tooltip" title=' Copiar en portapapeles '> <span><i class="icon-copy"></i></span> </button>
-<button id="savebtn" class="btn ml-2 result-btn" data-toggle="tooltip" title='Descargar salida al archivo'> <span><i class="icon-download"></i></span><a id="dload" style="display:none"></a> </button></div></div><div class="form-group"><!-- <label for="inputText">Introduzca su SQL</label> -->
-<div id="errorContainer" class="text-danger pb-2" style="display: none;"></div><!-- <div class="form-control toolstextarea" id="inputText" rows="10" cols="30"  placeholder="Enter SQL Input" contenteditable></div>-->
-<textarea class="form-control toolstextarea" id="inputText" type="textarea" rows="10" cols="30"  placeholder="Enter SQL Input" contenteditable></textarea>
-<div id="result-new-div" ></div></div></div><div class="btn-wrapper d-flex justify-content-center"><button id="button" class="fill-btn mr-2" href="#" role="button">Formatear SQL</button>
-<button id="inputclear" class="line-btn" > Borrar </button></div></div></div></div></div></section>
-<section class="tools-cta-section editor-cta pb-40" >
-<div class="container"><div class="row"><div class="col-md-12">
+<html lang="es">
+   <head>
+      <script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://zohotagmanager.cdn.pagesense.io/ztmjs/0a792777671e4c4fbd61acf546ea9c77.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+      <!-- s247tm script starts -->
+      <script type="text/javascript" src="https://js.site24x7static.com/js/s247tm.min.js?p=Dec_01_2022"></script>
+      <!-- s247tm script ends -->
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="canonical" href="https://www.site24x7.com/es/tools/sql-formateador.html" />
+      <title>Formateador SQL</title>
+      <meta name="description" content='El Formateador en línea de SQL embellece y formatea de forma instantánea el código SQL de servidores SQL. ¡Probar ahora!'>
+      <meta name="keywords" content='formateador de SQL,embellecedor de SQL,sentencias de SQL,análisis de SQL,formateo de SQL,formateador en línea de SQL,formateador gratuito de SQL,formato SQL,resaltador de color SQL'>
+      <link rel="SHORTCUT ICON" href="https://img.site24x7static.com/images/site24x7-fav.ico?p=Nov_23_2022">
+      <!-- <link href="https://webfonts.zoho.com/css?family=Lato:400,700" rel="stylesheet">-->
+      <link rel="stylesheet" href="https://css.site24x7static.com/css/bootstrap4.min.css?p=Nov_23_2022"
+         type="text/css"/>
+      <link rel="stylesheet" href="https://css.site24x7static.com/css/new-style.css?p=Nov_23_2022" type="text/css"/>
+      <link rel="stylesheet" href="//js-wc.site24x7static.com/site24x7/client/5704480/js/toastr.min.css" type="text/css"/>
+      <link rel="stylesheet" href="//css-wc.site24x7static.com/site24x7/client/5704480/css/alltoolsv2.css" type="text/css"/>
+      <style type="text/css">
+         pre {
+         min-height: 300px;
+         max-height: 300px;
+         background: #f7f7f7;
+         color: #000;
+         outline: none;
+         -webkit-transition: all 0.3s ease;
+         transition: all 0.3s ease;
+         overflow: auto;
+         padding: 15px;
+         }
+         textarea.error-field::placeholder{
+         color: red !important;
+         }
+         .sqlunion {color: darkorange;}
+         .sqlkeyword {color: red;}
+         .sqlstring {color: blue;}
+         #inputText:focus{
+         background: #f7f7f7 !important;
+         outline: none;
+         box-shadow: none;
+         border: none;
+         }
+         pre{
+         font-weight: normal !important;
+         }
+         .placeholder-text{
+         color: #555;
+         }
+         .editor-wrapper .editor .top-area .result-btn.btn{
+         display: none;
+         }
+         .editor-wrapper .editor .top-area .result-btn.btn{
+         display: none;
+         }
+      </style>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+      <style type="text/css">
+         .nav-link-color.selected {
+         color: #83b633!important
+         }
+      </style>
+      <script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/jquery.min-dc5e7f18c8.js"></script>
+      <script type="text/javascript" src="https://accounts.zoho.com/u/info"></script><script type="text/javascript">let imagesUrl = '//img-wc.site24x7static.com/site24x7/client/5704480/images/';
+         var rumMOKey = '68167b0b369af4d2424acc60f0f3fc81';
+         (function () {
+         if (window.performance && window.performance.timing && window.performance.navigation) {
+         var site24x7_rum_beacon = document.createElement('script');
+         site24x7_rum_beacon.async = true;
+         site24x7_rum_beacon.setAttribute('src', '//static.site24x7rum.eu/beacon/site24x7rum-min.js?appKey=' + rumMOKey);
+         document.getElementsByTagName('head')[0].appendChild(site24x7_rum_beacon);
+         }
+         })(window)
+      </script><!-- Spotlight script starts-->
+      <script type="text/javascript">// use this for local testing
+         // (function(id){var d=document;var w=window;w.$zoho=w.$zoho||{};var z=$zoho;var u=z.spotlight=z.spotlight||{};u.app_id=id;u.q=[];var p={"customer":["delete","increment","property","set","append"],"company":["delete","increment","append","property","set"],"track":[],"identify":[],"logout":[]};function s(a,b,c){a[b]=function(){var o={};o[c]=arguments;u.q.push(o)}}for(var o in p){s(u,o,o);var a=p[o];for(var i=0;i<a.length;i++){s(u[o],a[i],o+"."+a[i])}} if (window.addEventListener) window.addEventListener("load", loadScript, false); else if (window.attachEvent) window.attachEvent("onload", loadScript); function loadScript() {var e=d.createElement("script");e.type="text/javascript";e.src="https://spotlight.localzoho.com/track";e.id="zslscript";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}})("mciypDUYl5%2Fi%2BoB5WaIkVA%3D%3D")
+         (function(id){var d=document;var w=window;w.$zoho=w.$zoho||{};var z=$zoho;var u=z.spotlight=z.spotlight||{};u.app_id=id;u.q=[];var p={"customer":["delete","increment","property","set","append"],"company":["delete","increment","append","property","set"],"track":[],"identify":[],"logout":[]};function s(a,b,c){a[b]=function(){var o={};o[c]=arguments;u.q.push(o)}}for(var o in p){s(u,o,o);var a=p[o];for(var i=0;i<a.length;i++){s(u[o],a[i],o+"."+a[i])}}var e=d.createElement("script");e.type="text/javascript";e.src="https://scripts.zohospotlight.com/track";e.id="zslscript";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})("%2B%2FKTH9HSyCHMtzS%2BUNGgwQ%3D%3D")
+         var customer = {
+         id : '123e4567-e89b-12d3-a456-426614174000',
+         name: 'site24x7-tools-tracker',
+         email:'site24x7-tools-spotlight@zohocorp.com'
+         };
+         $zoho.spotlight.identify(customer.id,customer);
+         /*   if(!localStorage.hasOwnProperty("user_id")){
+         let uuid = CreateUUID();
+         localStorage.setItem("user_id",uuid);
+         }
+         if (localStorage.hasOwnProperty("user_id")) {
+         user_id = localStorage.getItem("user_id")
+         $zoho.spotlight.identify(user_id); 
+         }
+         function CreateUUID() {
+         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+         var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+         return v.toString(16);
+         });
+         }*/
+         function track(trend){
+         var delayInMilliseconds = 1000;
+         var url =  $('#request-demo').attr('href');
+         var toolName = document.title;  
+         event.preventDefault();
+         $zoho.spotlight.track('Tools Request Demo Links',{ description:toolName + ' - ' + trend + ' clicked'});
+         setTimeout(function() {
+         redirect(url);
+         },delayInMilliseconds);
+         }
+      </script><!-- Spotlight script ends -->
+      <!-- TemplateBeginEditable name="head" -->
+      <!-- TemplateEndEditable -->
+      <script>var iamZuid = parseInt();
+         var page_uri = '\x2Ftools\x2Fsql\x2Dformatter.html';  
+         var toolsV2 = true;
+         var languageCode = 'es';
+      </script>
+      <script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/tools-cd08abafdd.js"></script>
+      <script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/vkbeautify-928cfa808e.js"></script>
+      <script type="text/javascript" src="//js-wc.site24x7static.com/site24x7/client/fp/js/tools-util-3e975207ee.js"></script>
+      <!-- TemplateEndRepeat -->
+      <!-- TemplateBeginEditable name="bodypart" -->
+      <div id="temp-body">
+      <section class="tools-hero-section full-bg converter-tools">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="title-content">
+                     <h1>Formateador SQL</h1>
+                     <p >Formatee las sentencias SQL en una consulta fácilmente legible, con sangrías y codificación en color. Identifique fácilmente las operaciones SQL y los errores de sintaxis mediante esta herramienta.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="editor-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="editor-wrapper">
+                     <div class="editor">
+                        <div class="top-area d-flex justify-content-end">
+                           <div class="btn-wrapper d-flex">
+                              <div class="up-btn" data-toggle="tooltip" title="Upload Files"><input class="form-control-sm" type="file" onchange='validateFormatter(this);' id="fileinput" accept="application/sql, .sql"/><span class="rotate-icon"> <i class="icon-download"></i></span></div>
+                              <button id="copybtn" class="btn btn-green-s247 ml-2 result-btn" onclick="selectTextInDiv('result-new-div');" data-toggle="tooltip" title=' Copiar en portapapeles '> <span><i class="icon-copy"></i></span> </button>
+                              <button id="savebtn" class="btn ml-2 result-btn" data-toggle="tooltip" title='Descargar salida al archivo'> <span><i class="icon-download"></i></span><a id="dload" style="display:none"></a> </button>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <!-- <label for="inputText">Introduzca su SQL</label> -->
+                           <div id="errorContainer" class="text-danger pb-2" style="display: none;"></div>
+                           <!-- <div class="form-control toolstextarea" id="inputText" rows="10" cols="30"  placeholder="Enter SQL Input" contenteditable></div>-->
+                           <textarea class="form-control toolstextarea" id="inputText" type="textarea" rows="10" cols="30"  placeholder="Enter SQL Input" contenteditable></textarea>
+                           <div id="result-new-div" ></div>
+                        </div>
+                     </div>
+                     <div class="btn-wrapper d-flex justify-content-center"><button id="button" class="fill-btn mr-2" href="#" role="button">Formatear SQL</button>
+                        <button id="inputclear" class="line-btn" > Borrar </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="tools-cta-section editor-cta pb-40" >
+      <div class="container">
+      <div class="row">
+      <div class="col-md-12">
 
